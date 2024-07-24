@@ -36,6 +36,8 @@ h4 {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+
+  margin-bottom: 8px;
 }
 
 h1,
@@ -51,6 +53,8 @@ h3 {
   height: 660px;
   border-radius: 28px;
   object-fit: cover;
+
+  margin-block: 40px 24px;
 }
 
 p.description {
@@ -62,27 +66,94 @@ p.description {
   text-align: center;
 }
 
-h2 {
-  font-size: 32px;
+.divider {
+  width: 100%;
+  height: 1px;
+  margin-block: 40px 40px;
+
+  background-color: var(--border-primary);
 }
 
-p {
+.header-list {
+  margin-block: 64px 16px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+main p {
   color: var(--text-secondary);
   font-size: 16px;
   font-weight: 400;
 }
 
-img {
-    width: 100%;
-    height: 350px;
-    border-radius: 28px;
-    object-fit: cover;
+main img {
+  width: 100%;
+  height: 350px;
+  border-radius: 28px;
+  object-fit: cover;
+
+  margin-block: 48px 20px;
 }
 
 h3 {
   font-size: 28px;
+  margin-bottom: 4px;
 }
 
-p strong {
+main p strong {
   color: var(--text-secondary);
+}
+
+main p.list {
+  margin-bottom: 24px;
+}
+
+.local ul li {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--acent-blue);
+  margin-left: 24px;
+}
+
+.local-2 ul li {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 24px;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+ul li.pink {
+    color: var(--acent-pink);
+}
+
+ul li.orange {
+    color: var(--acent-orange);
+}
+
+ul li.purple {
+    color: var(--acent-purple);
+}
+
+footer p.description {
+  margin-bottom: 64px;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+  vertical-align: center;
+}
+
+.mensage {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  justify-content: center;
 }
